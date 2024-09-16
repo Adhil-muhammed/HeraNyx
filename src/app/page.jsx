@@ -12,9 +12,9 @@ import { Typography } from '@mui/material';
 export default function Page() {
   const router = useRouter();
 
-  // useEffect(() => {
-  //   router.push(CONFIG.auth.redirectPath);
-  // }, [router]);
+  useEffect(() => {
+    router.push(CONFIG.auth.redirectPath);
+  }, [router]);
 
-  return <Typography>Hello</Typography>;
+  return null;
 }
